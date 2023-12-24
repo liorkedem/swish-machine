@@ -51,7 +51,7 @@ class SwishService {
       firstDay = yesterday.add(-daysBack, "d").format("YYYY-MM-DD");
       period = "LAST" + daysBack;
     } else {
-      firstDay = "2022-10-18";
+      firstDay = "2023-10-24";
       period = "CURR_SEASON";
     }
 
